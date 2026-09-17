@@ -3,22 +3,22 @@ cask "alc-ng" do
   version "0.2.0"
 
   on_macos do
-    sha256 "e384b4b92fdd59744b4794a453fee3df5e10a0de9698a1d52a39facb263a3151"
+    sha256 "65f268d211eff23cd7d089c03fef983bae2fbb0fd5776da78488d28225810f7b"
     url "https://github.com/COMSYS/ALC-NG/releases/download/v#{version}/alc-ng_#{version}_darwin_all.tar.gz"
   end
   on_linux do
     on_arm do
-      sha256 "e9ed6e1ca1f89111ddd0da84e7cfa1a15a1009e6910c39427910c1a23db2749c"
+      sha256 "842a350ca2774f2955b7b911999f3f8fed5072cd9c6c611e78dd9013ec2f4300"
       url "https://github.com/COMSYS/ALC-NG/releases/download/v#{version}/alc-ng_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1d5c46a857dfa75c17f63edd9f83a35457f1bb96e7759260c8a39b2eb56c66ba"
+      sha256 "ca94252a3ff00c5a63a3e45788f726a1a86be9e8108e464cf23bff2ab93226d5"
       url "https://github.com/COMSYS/ALC-NG/releases/download/v#{version}/alc-ng_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "alc-ng"
-  desc "A modern LaTeX sanitization tool for arXiv submissions."
+  desc "Modern LaTeX sanitization tool for arXiv submissions"
   homepage "https://github.com/COMSYS/ALC-NG"
 
   livecheck do
